@@ -35,13 +35,6 @@ img {
   height: auto;
 }
 
-body {
-  font: normal 16px/1.5 "Inter", sans-serif;
-  background: var(--columbia-blue);
-  color: var(--black);
-  margin-bottom: 50px;
-}
-
 /* .section SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
