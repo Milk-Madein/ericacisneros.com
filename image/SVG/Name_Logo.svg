@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 118.22">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: CuteLoveRegular, 'Cute Love';
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-size: 76.43px;
+      }
+
+      .cls-5 {
+        font-size: 101.91px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(0 87.13)"><tspan class="cls-5" x="0" y="0">E</tspan><tspan class="cls-2" x="44.43" y="0">RICA</tspan><tspan class="cls-5" x="168.33" y="0" xml:space="preserve"> C</tspan><tspan class="cls-2" x="240.07" y="0">ISNE</tspan><tspan class="cls-4" x="369.4" y="0">R</tspan><tspan class="cls-3" x="404.79" y="0">OS</tspan></text>
+  </g>
+</svg>
