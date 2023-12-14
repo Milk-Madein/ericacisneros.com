@@ -1,0 +1,291 @@
+:root {
+    --BrownCoffee: #4d2235;
+    --Liver: #71282a;
+    --Coconut: #975638;
+    --Bronze: #d0763e;
+    --Sunray: #ebac4d;
+    --Buff: #f2d08d;
+    --Tumbleweed: #ddac88;
+    --OldRose: #c68d80;
+    --EnglishVermillion: #c74446;
+    --SmokyTopaz: #9f3847;
+    --Imperial: #6e406d;
+    --Olive: #a7a758;
+    --OldMoss: #718141;
+    --GrayAsparagus: #496541;
+    --DarkOlive: #37433b;
+    --DarkPurple: #2a1c31;
+    --Jacarta: #423157;
+    --PurpleNavy: #4d528a;
+    --UCLABlue: #556a97;
+    --Rackley: #5c81a3;
+    --Moonstone: #7dadc8;
+    --Crystal: #b0d6d9;
+    --Platinum: #ece6df;
+    --ChinaeseSilver: #cfccca;
+    --QuickSilver: #a6a6a6;
+    --SonicSilver: #787878;
+    --GraniteGray: #626262;
+    --Quartz: #4a4a4a;
+    --Jet: #363636;
+    --RussianGreen: #618c70;
+    --Shadow: #8b7463;
+    font-family: "Alumni Sans", sans-serif;
+    font-family: "Dosis", sans-serif;
+    font-family: "Playpen Sans", cursive;
+}
+/* @media only screen and (max-width: 750px) {
+    body {
+      background-color: lightblue;
+    }
+} */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+body > .left {
+    border: solid 5px white;    
+    flex: 1 1 30%;
+}
+body > .right {
+    border: solid 5px white;    
+    flex: 1 1 70%;
+}
+
+/*<!-- Nav -->*/
+nav{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    overflow: hidden;
+    float: left;
+    max-width: 200px;
+    background: var(--Buff);
+    font-family: 'Playpen Sans', cursive;
+    border-radius: 20px;
+    height: 0%;
+}
+
+nav button{
+    font-family: 'Playpen Sans', cursive;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    width: 140px;
+    font-size: large; 
+    font-weight: 500;
+    color: var(--BrownCoffee);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul#font.tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 5px 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+ul#dropcon{
+    justify-content: center;
+    list-style: none;
+    display: none;
+    width: 150px;
+    padding: 0 20px; 
+    margin: 0;
+}
+
+div.btn{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#logo {
+    margin: 5px;
+}
+
+#logo img{
+    max-width: 100%;
+}
+
+#logo img:hover {
+    filter: invert();
+}
+nav button:hover{
+    background-color: var(--Bronze);
+    color: var(--Platinum);
+    border-radius: 10px;
+}
+#dropcon li{
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+    margin: 2px;
+}
+#dropcon a{
+    color: var(--BrownCoffee);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    padding: inherit;
+}
+#dropcon li:hover , #dropcon a:hover{
+    background-color: var(--Bronze);
+    color: var(--Platinum);
+    border-radius: 10px;
+}
+/*<!-- Main Content -->*/
+main{
+    padding: 5px 10px;
+    overflow: hidden;
+    background: var(--Crystal);
+    font-family: 'Dosis', sans-serif;
+    border-radius: 20px;
+}
+
+#Timeline h1{
+    font-size: 36px;
+    margin-top: 0;
+    text-decoration: underline;
+    z-index: 900;
+}
+
+.tabcontent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 0%;
+}
+
+/*Timeline Tab*/
+#lines{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0%;
+    overflow: hidden;
+}
+
+#lines::after {
+    z-index: 1;
+    display: flex;
+    content: " ";
+    position: absolute;
+    width: 10px;
+    background-color: var(--Platinum);
+    top: 70px;
+    bottom: 0px;
+    margin-left: 20px;
+    height: 100%;
+}  
+
+.containment{
+    min-width: 45vw;
+    max-width: 75vw;
+    position: relative;
+    left: 71px;
+    margin: 10px 5px;
+    background-color: var(--Platinum);
+    border: 2px solid var(--EnglishVermillion);
+}
+  
+/* The circles on the timeline */
+.containment::after {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--Platinum);
+    border: 4px solid var(--EnglishVermillion);
+    top: 0;
+    border-radius: 100px;
+}
+  
+/* Place the container to the right */
+.containment.right{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+  
+/* Add arrows to the right container (pointing left) */
+.containment.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    left: -20px;
+    width: 0;
+    z-index: 1;
+    border: medium solid white;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent var(--EnglishVermillion) transparent transparent;
+}
+  
+/* Fix the circle for containers on the right side */
+.containment.right::after {
+    left: -65px;
+}
+  
+/* The actual content */
+.content {
+    padding: 5px 10px;
+    margin: 0%;
+    height: auto;
+}
+
+.content h2{
+    margin: 0 0 10px 0;
+    font-size: 20pt;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.content p{
+    margin: 0px 0% 5px 5px;
+    text-indent: 10pt;
+}
+/*Sources Tab*/
+div.source:nth-child(even) {
+    border-bottom: 5px solid blue;
+    background-color: #7db9c84d;
+}
+
+.source {
+    border-bottom: 5px solid red;
+    background-color: #7da1c868;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.source::after {
+  content: "";
+  display: flex;
+}
+
+.source span {
+  font-size: 20px;
+  margin-right: 15px;
+}
