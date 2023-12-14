@@ -1,89 +1,512 @@
-<!-- landing page/ homepage -->
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<html lang="en" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200;300;400;500;600;700;800&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<!-- <link rel="stylesheet" href="css/stylesheet.css"/> -->
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Erica Cisneros</title>
+	</head>
+	<body>
+		<!-- nav -->
+		<nav class="left">
+			<div id="logo">
+				<a
+					class="tab logos"
+					href="index.html"
+					onclick="openTab(event, 'Index')"
+					id="defaultOpen"
+				>
+					<img src="image/PNG/Name_Logo@3x.png" />
+				</a>
+			</div>
+			<ul id="font" class="tab">
+				<div class="btn">
+					<button id="butt" onclick="myFunction()" class="dropbtn">
+						<li><a>Fae Khaotic</a></li>
+					</button>
+					<ul id="dropcon">
+						<li><a href="#">Archive</a></li>
+						<li><a href="#">Company</a></li>
+						<li><a href="#">Director</a></li>
+						<li><a href="#">Jest Quest</a></li>
+					</ul>
+				</div>
+				<button
+					id="butt"
+					class="tablinks"
+					onclick="openTab(event, 'Description')"
+				>
+					<li><a>Description</a></li>
+				</button>
+				<button id="butt" class="tablinks" onclick="openTab(event, 'Timeline')">
+					<li><a>Timeline</a></li>
+				</button>
+				<button id="butt" class="tablinks" onclick="openTab(event, 'Sources')">
+					<li><a>Sources</a></li>
+				</button>
+				<button id="butt" class="tablinks" onclick="openTab(event, 'Project')">
+					<li><a>Project</a></li>
+				</button>
+			</ul>
+		</nav>
+		<!-- Main Content -->
+		<main class="right">
+			<div id="Index" class="tabcontent">
+				<h1>Erica Cisneros</h1>
+				<p>Creating an artist statement for my own work is messy and rough. The foundation is uneven on the plate of the idea, yet the passion as I have to make the idea a reality is what forces the outcome to be what I want. As the letters form into words, so does my hand moving between pencil to keyboard. From the start the idea does not stay fixed. I have to move my thoughts from one variation to another so I can smooth out the faults but strengthen the results. Pouring over details that make no sense in the process helps me tremendously. I take a speck and make it a glob of nonsense that will only give me joy. A joke or a mental disconnect from the fear of not being able to live up to my own expectations. The speck becomes more of a crutch to comfort myself in the journey. I fear the unknown of my own process. Fear of not doing the norm. Fear turns into curiosity that pulls me out of the arms of the crutch and head first into the unknown. Though fear pulls me along the path I have a sense of euphoria as I see the idea I wanted to make at the start stare at me. The mound that formed on the plate of the idea gets chipped away. Slicing off true piles of nonsense. Then smoothing out all the faults. I end up with a piece that is above what I thought I was able to create.</p>
+			</div>
 
-    <title>Erica Cisneros</title>
+			<div id="Timeline" class="tabcontent">
+				<h1>Timeline</h1>
+				<div id="lines" class="vl">
+					<div class="containment right">
+						<div class="content">
+							<h2>August</h2>
+							<p>
+								Think of an idea for my senior project
+								<ul>
+									<li>Want to be nostalgic</li>
+									<li>want to have it be realistic</li>
+									<li>has to have something with time</li>
+								</ul>
+								Buy my domains and plan out my website
+							</p>
+						</div>
+					</div>
+					<div class="containment right">
+						<div class="content">
+							<h2>September</h2>
+							<p>
+								<p style="text-decoration: line-through;">Write out my project description</p>
+								Description writting, evolve and focous on important bits
+								<ul>
+									<p style="font-weight: bolder; font-style: oblique; text-decoration: underline;">IMPORTANT WORDS</p>
+									<li>LOST MEDIA</li>
+									<li>NOSTALGIA</li>
+									<li>ALTERNATE REALITY GAME (ARG)</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<div class="containment right">
+						<div class="content">
+							<h2>October</h2>
+							<p>
+								Begin the 10 page research asignment.
+								<br>
+								Make a tab for all my sources
+								<br>
+								Make some prototyes to show off
+							</p>
+						</div>
+					</div>
+					<div class="containment right">
+						<div class="content">
+							<h2>November</h2>
+							<p>
+								Have something to show a bit of
+							</p>
+						</div>
+					</div>
+					<div class="containment right">
+						<div class="content">
+							<h2>December</h2>
+							<p>
+								<ul>Finish:
+									<li>First 10 pages</li>
+									<li><del>Working</del><ins>Useable</ins>website</li>
+									<li><del>Some prototyes</del></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+			<div id="Description" class="tabcontent">
+				<h1>Description</h1>
+				<p>
+					The aim is to create a game that evokes nostalgia for old tech games, which may have been lost due to rapid technological advancements.
+					Step into the enchanting world of 'Smalltop Circus'!
+					Join Ricky, the lovable clown rat, as he goes up against the mysterious Peculiar Puppeteer, Malachi Mischief, who threatens to overshadow the Smalltop!
+					Unleash Ricky's playful moves, solve puzzles, and experience the magic of the smallest big top.
+					In all new HD Textures that will feel like a childhood memory! 
+					Will Ricky remain the star, or will Malachi's mischief steal the spotlight?
+					Get ready for a comical adventure that blends humor, heart, and circus magic in this must-play game for all ages!
+				</p>
+				<p>
 
-    <!-- Custom CSS for the 'One Page Wonder' Template -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
-  </head>
+				</p>
+			</div>
 
-  <body>
+			<div id="Sources" class="tabcontent">
+				<h1>Sources</h1>
+				<div class="source">
+					<p>
+						<span
+							><em
+								>The impact of the Mobile Legends game in creating virtual
+								reality</em
+							></span
+						>
+						<small>by Al Mawalia, Khefti</small>
+					</p>
+					<p>
+						- Indonesian Journal of Social Sciences 12.2 (2020): 49-61.
+						https://pdfs.semanticscholar.org/aa47/6d0ce73a7e99cabb4936927b8d5575487050.pdf
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span><em>Video games and aesthetic contemplation</em></span>
+						<small>by Atkinson, Paul, and Farzad Parsayi.</small>
+					</p>
+					<p>
+						- Games and Culture 16.5 (2021): 519- 537.
+						https://doi.org/10.1177/1555412020914726
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span><em>Nostalgia in video games</em></span>
+						<small>by Bowman, Nicholas David, and Tim Wulf.</small>
+					</p>
+					<p>
+						- Current Opinion in Psychology (2022): 101544.
+						https://doi.org/10.1016/j.copsyc.2022.101544
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span
+							><em
+								>The changing face of video games and video gamers: Future
+								directions in the scientific study of video game play and
+								cognitive performance</em
+							></span
+						>
+						<small>by Dale, Gillian, and C. Shawn Green.</small>
+					</p>
+					<p>
+						- Journal of Cognitive Enhancement, vol. 1, 2017, pp. 280-294.
+						https://doi.org/10.1007/S41465-017-0015-6
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span
+							><em
+								>2023 Essential Facts About the U.S. Video Game Industry</em
+							></span
+						>
+						<small>by Entertainment Software Association</small>
+					</p>
+					<p>https://www.theesa.com/2023-essential-facts/</p>
+				</div>
+				<div class="source">
+					<p>
+						<span><em>Nostalgia in Retro Game Design</em></span>
+						<small>by Garda, Maria B.</small>
+					</p>
+					<p>
+						-DiGRA Conference. 2013.
+						https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3fb3134a29cdcf28a05cf5e6bd120ab5da295a7e.
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span
+							><em
+								>Odyssey's end: lay conceptions of nostalgia reflect its
+								original Homeric meaning</em
+							></span
+						>
+						<small>by Hepper, Erica G., et al</small>
+					</p>
+					<p>
+						Emotion 12.1 (2012): 102.
+						https://psycnet.apa.org/doi/10.1037/a0025167.
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span
+							><em
+								>Nostalgia for the new: video game "remakes" and the limits of
+								reflection</em
+							></span
+						>
+						<small>by Hoch, Indira Neill</small>
+					</p>
+					<p>
+						- AoIR Selected Papers of Internet Research (2020).
+						https://doi.org/10.5210/spir.v2020i0.11286
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>Funny games: understanding videogames as slapstick and the experience of game-worlds as shared cultural references.
+							</em>
+						</span>
+						<small>by Hudson, Ben</small>
+					</p>
+					<p>
+						Engaging with Videogames: Play, Theory and Practice. Brill, 2014. 109-120.https://doi.org/10.1163/9781848882959_011
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span><em>A brief history of video games</em></span>
+						<small>by Ivory, James D.</small>
+					</p>
+					<p>
+						The video game debate: Unravelling digital games' physical, social, and psychological effects, 2015, pp. 1-21. http://dx.doi.org/10.1080/23808985.2018.1442239
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span><em>
+						Level design patterns in 2D games
+						</em></span>
+						<small>by Khalifa, Ahmed, Fernando de Mesentier Silva, and Julian Togelius</small>
+					</p>
+					<p>					
+						2019 IEEEConference on Games (CoG). IEEE, (2019): 712-760. https://doi.org/10.1109/CIG.2019.8847953
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								From gamer personality, via motivation, to game choice: Typifying gamers and games based on survey data
+							</em>
+						</span>
+						<small>by Kolo, Castulus, and Niklas Lüst </small>
+					</p>
+					<p>
+						-Journal of Gaming & Virtual Worlds 11.2 (2019): 139-159. https://doi.org/10.1386/jgvw.11.2.139_1
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>Revealing the theoretical basis of gamification: A systematic review and analysis of theory in research on gamification, serious games, and game-based learning</em>
+						</span>
+						<small>by Krath, Jeanine, Linda Schürmann, and Harald FO Von Korflesch</small>
+					</p>
+					<p>Computers in Human Behavior 125 (2021): 106963. https://doi.org/10.1016/j.chb.2021.106963</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+							"User Interface Design in Game Development: How does the game industry create user interface design?."
+							</em>
+						</span>
+						<small>by Maeda Palm, Joakim</small>
+					</p>
+					<p>
+					(2022). 3-41 https://www.divaportal.org/smash/get/diva2:1710174/FULLTEXT01.pdf 
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Video games as objects and vehicles of nostalgia
+							</em>
+						</span>
+						<small>by Makai, Péter Kristóf</small>
+					</p>
+					<p>
+						Humanities, vol. 7, no. 4, 2018, pp. 123. https://doi.org/10.3390/h7040123
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Game On to Game After
+							</em>
+						</span>
+						<small>	
+							by Nyitray, K. J. 
+						</small>
+					</p>
+					<p>
+						-Reference & User Services Quarterly, 59(1), (2019); 7-11. https://www.journals.ala.org/index.php/rusq/article/download/7219/9897 
+					</p>
+				</div>				 
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Scent-evoked nostalgia
+							</em>
+						</span>
+						<small>
+							by Reid, Chelsea A., et al
+						</small>
+					</p>
+					<p>
+						Memory 23.2 (2015): 157-166. https://doi.org/10.1080/09658211.2013.876048
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								To nostalgize: Mixing memory with affect and desire
+							</em>
+						</span>
+						<small>
+							by Sedikides, Constantine, et al
+						</small>
+					</p>
+					<p>
+						Advances in experimental social psychology. Vol. 51. Academic Press, 2015. 189-273. https://doi.org/10.1016/bs.aesp.2014.10.001
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Use of photogrammetry in video games: a historical overview
+							</em>
+						</span>
+						<small>
+							by Statham, Nataska
+						</small>
+					</p>
+					<p>
+						Games and Culture 15.3 (2020): 289-307. https://doi.org/10.1177/1555412018786415
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Playing the past: History and nostalgia in video games
+							</em>
+						</span>
+						<small>
+							by Taylor, Laurie N., and Zach Whalen
+						</small>
+					</p>
+					<p>
+						Vanderbilt University Press, 2008
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								The association between video gaming and psychological functioning
+							</em>
+						</span>
+						<small>
+							by Von der Heiden, Juliane M., et al
+						</small>
+					</p>
+					<p>
+						Frontiers in Psychology 10 (2019): 1731. https://doi.org/10.3389/fpsyg.2019.01731
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Wallowing in media past: Parasocial relationships as a predictor of media-induced nostalgia
+							</em>
+						</span>
+						<small>
+							by Wulf, T., and D. Rieger
+						</small>
+					</p>
+					<p>
+						Communication Research Reports (2017). http://dx.doi.org/10.1080/08824096.2017.1383236
+					</p>
+				</div>
+				<div class="source">
+					<p>
+						<span>
+							<em>
+								Once upon a game: Exploring video game nostalgia and its impact on well-being
+							</em>
+						</span>
+						<small>
+							by Wulf, Tim., Bowman, Nicholas. D., Velez, John. A., & Breuer, Johannes
+						</small>
+					</p>
+					<p>
+						Psychology of Popular Media 9.1 (2020): 83. https://psycnet.apa.org/doi/10.1037/ppm0000208
+					</p>
+				</div>
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Senior Project</a>
-        </div>
+			</div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="timeline.html">Timeline</a></li>
-            <li><a href="#services">Description</a></li>
-            <li><a href="#contact">Insperation</a></li>
-            <li><a href="#other">Scorces</a></li>
-            <li><a href="#wip">Project</a></li> 
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-
-    <div class="header-image">
-
-      <div class="headline">
-        <div class="container">
-          <h1>Welcome!</h1>
-          <h2>To the Senior Experiance</h2>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="container">
-      <hr class="featurette-divider">
-      <div class="featurette" id="about">
-        <img class="featurette-image img-circle img-responsive pull-right" src="Images/pfp.png" width="500px" height="500px">
-        <h2 class="featurette-heading">Meet the artist <br /><span class="text-muted">Erica Cisneros</span></h2>
-        <p class="lead">Creating an artist statement for my own work is messy and rough. The foundation is uneven on the plate of the idea, yet the passion as I have to make the idea a reality is what forces the outcome to be what I want. As the letters form into words, so does my hand moving between pencil to keyboard. From the start the idea does not stay fixed. I have to move my thoughts from one variation to another so I can smooth out the faults but strengthen the results. Pouring over details that make no sense in the process helps me tremendously. I take a speck and make it a glob of nonsense that will only give me joy. A joke or a mental disconnect from the fear of not being able to live up to my own expectations. The speck becomes more of a crutch to comfort myself in the journey. I fear the unknown of my own process. Fear of not doing the norm. Fear turns into curiosity that pulls me out of the arms of the crutch and head first into the unknown. Though fear pulls me along the path I have a sense of euphoria as I see the idea I wanted to make at the start stare at me. The mound that formed on the plate of the idea gets chipped away. Slicing off true piles of nonsense. Then smoothing out all the faults. I end up with a piece that is above what I thought I was able to create.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette" id="contact">
-        <img class="featurette-image img-circle img-responsive pull-right" src="http://placecreature.com/500/500">
-        <h2 class="featurette-heading">Bibiography <span class="text-muted">Some words.</span></h2>
-        <p class="lead">Bibiography: Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <hr>
-
-      <!-- FOOTER -->
-      <footer>
-        <p>Copyright &copy; Cisneros 2023</p>
-      </footer>
-      <!-- /END OF FOOTER -->
-
-    </div><!-- /container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-  </body>
-
+			<div id="Project" class="tabcontent">
+				<h1>Project</h1>
+				<dl>
+					<dt><h3>Advertisment for Smalltop Circus</h3></dt>
+					<dd><p>Step right up! Get ready for the most enchanting spectacle under the big top! Smalltop Circus, where the extraordinary comes to life! Join Ricky Rigatoni, the clown rat extraordinaire, and a cast of incredible animal performers as they dazzle you with laughter, wonder, and breathtaking feats! From Bella's aerial ballet to Gizmo's juggling antics, every act is a surprise waiting to happen. Bring the family, and experience the magic at Smalltop Circus – where joy knows no bounds! Hurry, grab your tickets now, and be part of the circus magic! Smalltop Circus, where the extraordinary becomes extraordinary!</p></dd>
+					<dd><p>Step into the enchanting world of 'Smalltop Circus'! Join Ricky, the lovable clown rat, as he navigates a whimsical circus filled with laughter, surprises, and mischievous antics. When a mysterious Peculiar Puppeteer, Malachi Mischief, threatens to overshadow the joy, Ricky must outsmart enchanted puppets and save the show. Unleash Ricky's playful moves, solve puzzles, and experience the magic of the big top. Will Ricky remain the star, or will Malachi's mischief steal the spotlight? Get ready for a comical adventure that blends humor, heart, and circus magic in this must-play game for all ages!</p></dd>
+					<dt><h3>Main Star: Ricky Rigatoni: The Clowning Rat</h3></dt>
+					<dd><p>Meet Ricky Rigatoni, the clown rat, with a heart as big as the circus tent! His playful antics, mischievous pranks, and heartwarming performances make him the heartthrob of Smalltop Circus. Join Ricky on a whimsical journey filled with laughter, surprises, and the enchantment of the big top. Don't miss out on the joy – Ricky Rigatoni is the star you didn't know you needed under the magical circus lights!</p></dd>
+					<dd><p>Dash through obstacles, climb walls, and unleash confetti chaos on enemies. Master his playful moves and outsmart foes in this whimsical circus adventure!</p></dd>
+					<dt><h3>Main Villin: Malachi Mischief: The Peculiar Puppeteer</h3></dt>
+					<dd><p>Meet Malachi Mischief, The Peculiar Puppeteer, who's out to steal the spotlight from Ricky Rigatoni, the beloved clown rat. With an army of enchanted puppets and a knack for chaos, Malachi poses a mischievous threat to the joyous circus performances. Can Ricky outwit this master puppeteer and save the show? It's a whimsical battle between mischief and merriment under the big top!</p></dd>
+				</dl>
+			</div>
+		</main>
+		<!--scripts-->
+		<script>
+			function openTab(evt, sectionName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(sectionName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+		</script>
+		<script>
+			var dropdown = document.getElementsByClassName("dropbtn");
+			var i;
+			for (i = 0; i < dropdown.length; i++) {
+				dropdown[i].addEventListener("click", function () {
+					this.classList.toggle("active");
+					var dropdownContent = this.nextElementSibling;
+					if (dropdownContent.style.display === "block") {
+						dropdownContent.style.display = "none";
+					} else {
+						dropdownContent.style.display = "block";
+					}
+				});
+			}
+		</script>
+	</body>
 </html>
