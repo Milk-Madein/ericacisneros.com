@@ -16,5 +16,9 @@ padding: 20px;
 .main-content {
 flex: 1;
 padding: 20px;
-background-color: #f0b4c2;
+}
+
+.main-content p{
+background-color: #f3b4c2;
+padding: 5px;
 }
